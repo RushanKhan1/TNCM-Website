@@ -11,9 +11,17 @@ import os
 app=Flask(__name__,static_url_path='/static')
 app.config['SECRET_KEY'] = 'TNCM-Website'
 
-@app.route("/",methods=['GET', 'POST'])
+@app.route("/")
 def index():
-    return "<center><h1>Start Building This Website !"
+    return render_template('index.html')
 
+@app.route("/blogs")
+def blog():
+    #Query and return all blogs from database
+    pass
+@app.route("/forums")
+def forums():
+    #Query and return all forum threads from database
+    pass
 if __name__=="__main__":
     app.run(debug=True)
