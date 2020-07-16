@@ -1,4 +1,5 @@
-# To install run the command 'pipenv install' in the root directory.
+# First install pipenv by running 'sudo pip install pipenv'
+# Then to install the requirements run 'pipenv install'
 [[source]]
 name = "pypi"
 url = "https://pypi.org/simple"
