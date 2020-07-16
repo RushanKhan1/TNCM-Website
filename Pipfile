@@ -1,3 +1,4 @@
+# To install run the command 'pipenv install' in the root directory.
 [[source]]
 name = "pypi"
 url = "https://pypi.org/simple"
