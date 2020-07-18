@@ -1,3 +1,5 @@
+# First install pipenv by running 'sudo pip install pipenv'
+# Then to install the requirements run 'pipenv install'
 [[source]]
 name = "pypi"
 url = "https://pypi.org/simple"
